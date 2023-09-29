@@ -6,7 +6,16 @@
         xmlns:local="clr-namespace:Assignment_Unit_Testing"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid>
-
-    </Grid>
+    <Canvas Background="#FF72A8BF">
+        <RichTextBox HorizontalAlignment="Left" Height="202" Canvas.Left="176" Canvas.Top="92" VerticalAlignment="Top" Width="408" FontSize="22">
+            <FlowDocument>
+                <Paragraph>
+                    <Run Text="There's no GUI for this assignment. "/>
+                    <LineBreak />
+                    <LineBreak />
+                    <Run Text="You just need to test the Checking and Savings class in your test framework."/>
+                </Paragraph>
+            </FlowDocument>
+        </RichTextBox>
+    </Canvas>
 </Window>
