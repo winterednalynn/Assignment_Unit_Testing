@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Assignment_Unit_Testing
 {
-    class Checking : Account
+    public class Checking : Account
     {
         double _overdraftCharge;
 
